@@ -13,7 +13,7 @@ public class Lab2 {
 				double fToC; // temperature in Celsius
 				double average; // arithmetic average
 				String output; // line of output to print out
-				//Task #2 declare a variable to hold the user’s temperature
+				//Task #2 declare a variable to hold the userâ€™s temperature
 				double userTemp;
 				//Task #2 prompt user to input score1
 				System.out.println("Enter 1'st score: ");
@@ -24,7 +24,7 @@ public class Lab2 {
 				//Task #2 read score2 
 				score2=in.nextInt();
 				// Find an arithmetic average
-				average = (score1 + score2) / NUMBER;
+				average = ((double)score1 + score2) / NUMBER;
 				output = score1 + " and " + score2 + " have an average of " + average;	
 				System.out.println(output);
 				// Convert Fahrenheit temperatures to Celsius
@@ -33,11 +33,11 @@ public class Lab2 {
 				System.out.println(output);
 				//Task #2 prompt user to input another temperature
 				System.out.println("\nInput temperature in Farenheit: ");
-				//Task #2 read the user’s temperature in Fahrenheit
+				//Task #2 read the userâ€™s temperature in Fahrenheit
 				userTemp=in.nextDouble();
-				//Task #2 convert the user’s temperature to Celsius
+				//Task #2 convert the userâ€™s temperature to Celsius
 				double celsius=(5.0/9.0)*(userTemp-32);
-				//Task #2 print the user’s temperature in Celsius
+				//Task #2 print the userâ€™s temperature in Celsius
 				System.out.println(userTemp+" degrees Farenheit is equal to "+celsius+" degrees Celsius");
 				System.out.println("Goodbye"); // to show that the program is ended
 
